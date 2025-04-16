@@ -1,0 +1,17 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+**/.DS_Store
+
+atb-bibl-project.Rproj
+*.qmd
+
+/_stuff/
+/_data/
+/_R/
+
+/.quarto/
+/_freeze/ 
+_quarto.yml  
