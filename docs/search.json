@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "notes/location-202504.html",
+    "href": "notes/location-202504.html",
+    "title": "Biblical references in context",
+    "section": "",
+    "text": "I’m using pages as a starting point for convenience (though they’re not particularly meaningful, they are evenly sized). This chart is a kind of hybrid of a “barcode chart” (each page of each book is represented by one narrow bar, reading left to right from the first page), and a heatmap.\nSince the Books vary in terms of size and numbers of quotes, I’m using density (quotes per page as a percentage of a Book’s total, rather than counts). A bar is light grey when a page has no quotes at all. On pages that do have quotes, density of quotation is encoded with colour, from very dark blue = lowest density to bright yellow=highest density.\nA table with page links to the DSE is provided below to help look up any points of interest.\n\n\n\n\n\n\n\n\n\nBook 1 has the most even spread of quotes, with relatively few and narrow blocks of grey, a lot of big chunks of dark bars but almost no light colours.\nBook 2 has the highest concentration of pages without quotes; where it does have quotes they cluster a bit more than in Book 1 (more greens) though there are again very few yellows. Much of the quotation is focused in the second quarter of the Book.\nIn contrast, both Book 3 and Book Rem have quite a few visible yellow bars, suggesting more clustering of quotes. In Book 3 that’s noticeably concentrated in a single area near the middle of the Book and along with the clustering, quotes seem more scattered than in the other Books. (NB that much of the large grey area near the end of Book Rem is the Index; the rest is probably the chunks of poetry just before the Index. I think - but will need to check - that the grey block around 240 in Book 1 is the same section of poetry.)\nBook 1 has a lot more quotes than any of the other books. The difference between 1 and Rem, given their similarities in narrative, is striking. (If I’d done this analysis earlier it would have been something nice to add to my chapter…)\n\n\n\n\n\nbook\npages\nquotes\nmax\nmedian\nmean\n\n\n\n\nBook 1\n309\n954\n31\n2\n3.087379\n\n\nBook 2\n293\n421\n10\n0\n1.436860\n\n\nBook 3\n217\n547\n20\n1\n2.520737\n\n\nBook Rem\n200\n304\n11\n1\n1.520000\n\n\n\n\n\n\n\nThe proportion of pages without any quotes, as hinted by the barcode chart, also varies considerably between Books. In Book 1 about 35% of pages have no quotes at all; in Book 2 it’s about 59%.\n\n\n\n\n\n\n\n\n\nMeanwhile, a histogram highlights a) that the spread for Book 1 is slightly exaggerated by a couple of outliers, and b) the reason why the table above gives a median of 0 for Book 2; the predominance of zero-quote pages really stands out."
+  },
+  {
+    "objectID": "notes/location-202504.html#pages",
+    "href": "notes/location-202504.html#pages",
+    "title": "Biblical references in context",
+    "section": "",
+    "text": "I’m using pages as a starting point for convenience (though they’re not particularly meaningful, they are evenly sized). This chart is a kind of hybrid of a “barcode chart” (each page of each book is represented by one narrow bar, reading left to right from the first page), and a heatmap.\nSince the Books vary in terms of size and numbers of quotes, I’m using density (quotes per page as a percentage of a Book’s total, rather than counts). A bar is light grey when a page has no quotes at all. On pages that do have quotes, density of quotation is encoded with colour, from very dark blue = lowest density to bright yellow=highest density.\nA table with page links to the DSE is provided below to help look up any points of interest.\n\n\n\n\n\n\n\n\n\nBook 1 has the most even spread of quotes, with relatively few and narrow blocks of grey, a lot of big chunks of dark bars but almost no light colours.\nBook 2 has the highest concentration of pages without quotes; where it does have quotes they cluster a bit more than in Book 1 (more greens) though there are again very few yellows. Much of the quotation is focused in the second quarter of the Book.\nIn contrast, both Book 3 and Book Rem have quite a few visible yellow bars, suggesting more clustering of quotes. In Book 3 that’s noticeably concentrated in a single area near the middle of the Book and along with the clustering, quotes seem more scattered than in the other Books. (NB that much of the large grey area near the end of Book Rem is the Index; the rest is probably the chunks of poetry just before the Index. I think - but will need to check - that the grey block around 240 in Book 1 is the same section of poetry.)\nBook 1 has a lot more quotes than any of the other books. The difference between 1 and Rem, given their similarities in narrative, is striking. (If I’d done this analysis earlier it would have been something nice to add to my chapter…)\n\n\n\n\n\nbook\npages\nquotes\nmax\nmedian\nmean\n\n\n\n\nBook 1\n309\n954\n31\n2\n3.087379\n\n\nBook 2\n293\n421\n10\n0\n1.436860\n\n\nBook 3\n217\n547\n20\n1\n2.520737\n\n\nBook Rem\n200\n304\n11\n1\n1.520000\n\n\n\n\n\n\n\nThe proportion of pages without any quotes, as hinted by the barcode chart, also varies considerably between Books. In Book 1 about 35% of pages have no quotes at all; in Book 2 it’s about 59%.\n\n\n\n\n\n\n\n\n\nMeanwhile, a histogram highlights a) that the spread for Book 1 is slightly exaggerated by a couple of outliers, and b) the reason why the table above gives a median of 0 for Book 2; the predominance of zero-quote pages really stands out."
+  },
+  {
+    "objectID": "notes/location-202504.html#divs",
+    "href": "notes/location-202504.html#divs",
+    "title": "Biblical references in context",
+    "section": "Divs",
+    "text": "Divs\nThe Books’ &lt;div&gt; tagging can be used give some more meaningful insights, but because divs in the Books vary a lot in length, they’re trickier to use. I’m using word counts and calculating quote word count as a percentage of div word count. But very short divs can be a bit problematic with that kind of method, so divs of less than 100 words are highlighted (triangles instead of round lollipops).\nThe short labels I’m using (especially for Book 3) are rough and ready work in progress but hopefully give enough info to make sense: there’s another table below to help locate them. (Numbers in brackets are used to make repeated labels unique.)\nIt’s no great surprise that quotes tend to be most concentrated in divs that are explicitly labelled as prayers, meditations, etc. So what gets more interesting is when other divs make it into the top 30 or so. In the case of Book 1 the first of these is a very short div; the first substantial div is AT’s traumatic illness at Oswaldkirk (I need to fix the spelling in the label) in ?1661.\n\n\n\n\n\n\n\n\n\nDivs devoted to prayer and meditation form a much smaller proportion of Book Rem, so they’re accordingly less common here. But densities are quite low even in the top ranked divs. I think “illness after mother’s death” may be the same as illness at Oswaldkirk in Book 1!\n\n\n\n\n\n\n\n\n\nI think this is less effective for Book 2 and especially Book 3 because the divs tend to be long and contain more mixed material than 1/Rem. It’s difficult to give some divs meaningful labels. This is likely to need some more thought.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable\nColumns are filterable and sortable. Click on ▶ to open up details with links to DSE."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Notes on ATB biblical",
+    "section": "",
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\n28 Apr 2025\n\n\nBiblical references in context\n\n\n\n\n26 Feb 2025\n\n\nBiblical: a first look\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "notes/first-look-202502.html",
     "href": "notes/first-look-202502.html",
     "title": "Biblical: a first look",
@@ -26,19 +61,5 @@
     "title": "Biblical: a first look",
     "section": "Comparison of reference types",
     "text": "Comparison of reference types"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Notes on ATB biblical references",
-    "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\n26 Feb 2025\n\n\nBiblical: a first look\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
