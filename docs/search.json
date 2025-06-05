@@ -21,18 +21,25 @@
     "text": "Divs\nThe Books’ &lt;div&gt; tagging can be used give some more meaningful insights, but because divs in the Books vary a lot in length, they’re trickier to use. I’m using word counts and calculating quote word count as a percentage of div word count. But very short divs can be a bit problematic with that kind of method, so divs of less than 100 words are highlighted (triangles instead of round lollipops).\nThe short labels I’m using (especially for Book 3) are rough and ready work in progress but hopefully give enough info to make sense: there’s another table below to help locate them. (Numbers in brackets are used to make repeated labels unique.)\nIt’s no great surprise that quotes tend to be most concentrated in divs that are explicitly labelled as prayers, meditations, etc. So what gets more interesting is when other divs make it into the top 30 or so. In the case of Book 1 the first of these is a very short div; the first substantial div is AT’s traumatic illness at Oswaldkirk (I need to fix the spelling in the label) in ?1661.\n\n\n\n\n\n\n\n\n\nDivs devoted to prayer and meditation form a much smaller proportion of Book Rem, so they’re accordingly less common here. But densities are quite low even in the top ranked divs. I think “illness after mother’s death” may be the same as illness at Oswaldkirk in Book 1!\n\n\n\n\n\n\n\n\n\nI think this is less effective for Book 2 and especially Book 3 because the divs tend to be long and contain more mixed material than 1/Rem. It’s difficult to give some divs meaningful labels. This is likely to need some more thought.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable\nColumns are filterable and sortable. Click on ▶ to open up details with links to DSE."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "notes/events-20250604.html",
+    "href": "notes/events-20250604.html",
+    "title": "ATB events and biblical references [WIP]",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "These four pages are something I put together to help eyeball relationships between Events narratives and biblical quotations in the books. Divs that were marked up as prayer or poetry are also highlighted, so it can also be used to look at eg how much biblical quotation is outside sections that are distinct prayer/meditation, or how much is inside poetry.\nThey’re kind of ugly! And really not meant for actually reading the text (though it is more or less visible); page numbers are clickable links to the DSE. Most whitespace has been eliminated so there are big blocks of text on screen.\nbook 1\nbook 2\nbook 3\nbook Rem\n[more to come]"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Notes on ATB biblical",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\n28 Apr 2025\n\n\nBiblical references in context\n\n\n\n\n26 Feb 2025\n\n\nBiblical: a first look\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\n4 Jun 2025\n\n\nATB events and biblical references [WIP]\n\n\n\n\n28 Apr 2025\n\n\nBiblical references in context\n\n\n\n\n26 Feb 2025\n\n\nBiblical: a first look\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "notes/first-look-202502.html",
