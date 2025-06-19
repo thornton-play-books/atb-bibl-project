@@ -23,16 +23,51 @@
   {
     "objectID": "notes/events-20250604.html",
     "href": "notes/events-20250604.html",
-    "title": "ATB events and biblical references [WIP]",
+    "title": "ATB events and biblical references",
     "section": "",
-    "text": "These four pages are something I put together to help eyeball relationships between Events narratives and biblical quotations in the books. Divs that were marked up as prayer or poetry are also highlighted, so it can also be used to look at eg how much biblical quotation is outside sections that are distinct prayer/meditation, or how much is inside poetry.\nThey’re kind of ugly! And really not meant for actually reading the text (though it is more or less visible); page numbers are clickable links to the DSE. Most whitespace has been eliminated so there are big blocks of text on screen.\nbook 1\nbook 2\nbook 3\nbook Rem\n[more to come]"
+    "text": "These four pages are something I put together to help eyeball relationships between Events narratives and biblical quotations in the books (apart from quotes inside event mentions, I wanted to see if there were many quotations just after event tagging that might be related to the event; I don’t think there are).\nDivs that were marked up as prayer or poetry are also highlighted, so it can also be used to look at eg how much biblical quotation is outside sections that are distinct prayer/meditation, or how much is inside poetry.\nThey’re kind of ugly! And not meant for actually reading the text (though it is more or less visible); page numbers are clickable links to the DSE. Most whitespace has been eliminated so there are big blocks of text on screen.\n\nbook 1\nbook 2\nbook 3\nbook Rem"
+  },
+  {
+    "objectID": "notes/events-20250604.html#locating-quote-in-relation-to-events-in-the-books",
+    "href": "notes/events-20250604.html#locating-quote-in-relation-to-events-in-the-books",
+    "title": "ATB events and biblical references",
+    "section": "",
+    "text": "These four pages are something I put together to help eyeball relationships between Events narratives and biblical quotations in the books (apart from quotes inside event mentions, I wanted to see if there were many quotations just after event tagging that might be related to the event; I don’t think there are).\nDivs that were marked up as prayer or poetry are also highlighted, so it can also be used to look at eg how much biblical quotation is outside sections that are distinct prayer/meditation, or how much is inside poetry.\nThey’re kind of ugly! And not meant for actually reading the text (though it is more or less visible); page numbers are clickable links to the DSE. Most whitespace has been eliminated so there are big blocks of text on screen.\n\nbook 1\nbook 2\nbook 3\nbook Rem"
+  },
+  {
+    "objectID": "notes/events-20250604.html#quotes-in-books-vs-events",
+    "href": "notes/events-20250604.html#quotes-in-books-vs-events",
+    "title": "ATB events and biblical references",
+    "section": "Quotes in Books vs events",
+    "text": "Quotes in Books vs events\nFor reference, overall % of words that are in &lt;quote&gt; tags, per book.\nTotal word counts used here exclude all editorial additions as well as original material that wasn’t part of the main text (like indexes, title pages, section titles(?check), page numbers). Using these totals, overall quotations average out to 7.6% of the total word count.\n\n\n\n\n\n\n\n\n\nEvent narratives are much less likely to contain quotations than the Books as a whole. Only about a quarter of events (aggregating any mentions throughout all the Books) contain any quotations at all (79 events of 319), and quotes only make up 2.1% of the total word count for events.\nNB: “event” refers to the 319 events that we created metadata for (excluding groups); “event mention” refers to the individual tagged instances of those events in texts.\nThe breakdown by Book is interesting: 1 and Rem are still well ahead, but 2 and 3 have swapped places."
+  },
+  {
+    "objectID": "notes/events-20250604.html#which-events-have-most-quotes",
+    "href": "notes/events-20250604.html#which-events-have-most-quotes",
+    "title": "ATB events and biblical references",
+    "section": "Which events have most quotes?",
+    "text": "Which events have most quotes?\nWithin the events that do contain any quotations, most events contain only 1-3 quotes, but a few events are much more densely quoted. (The short labels are somewhat work in progress; there is a table at the bottom of the post with full descriptions if it’s unclear what any of them refer to.)\n\n\n\n\n\n\n\n\n\nBy percent of words instead of quote counts gives some slightly different results, but some of the top ranking events here are brief narratives with few mentions."
+  },
+  {
+    "objectID": "notes/events-20250604.html#event-keywords-and-quotes",
+    "href": "notes/events-20250604.html#event-keywords-and-quotes",
+    "title": "ATB events and biblical references",
+    "section": "Event keywords and quotes",
+    "text": "Event keywords and quotes\nI’ve aggregated word counts for event keywords and, bearing in mind the limitations of these, it gives some interesting results. Analysis omits keywords for which no events contain any quotes (though that’s only 2 of 18) and some charts will also omit keywords with &lt;1000 total words.\nThe total word count for each keyword (as well as the number of events) varies a lot; experimented with a few ways of showing this information.\nThis bar chart adds the total word count for each keyword. The most striking thing about that is that the third-largest keyword (legal/financial) contains very few biblical quotes. Slander seems surprisingly low to me.\n\n\n\n\n\n\n\n\n\nSame broken down by Book, for comparisons.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA mosaic chart is an alternative way of showing both the proportions and the size of each category. Here I’m limiting to keywords with &gt;1000 words for readability.\nSorting by size of keyword\n\n\n\n\n\n\n\n\n\nOr sorting by proportion of words (as in the bar chart)\n\n\n\n\n\n\n\n\n\nI think it’s easier to compare Books with this method. (alphabetical sorting this time)"
+  },
+  {
+    "objectID": "notes/events-20250604.html#table",
+    "href": "notes/events-20250604.html#table",
+    "title": "ATB events and biblical references",
+    "section": "Table",
+    "text": "Table"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Notes on ATB biblical",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\n4 Jun 2025\n\n\nATB events and biblical references [WIP]\n\n\n\n\n28 Apr 2025\n\n\nBiblical references in context\n\n\n\n\n26 Feb 2025\n\n\nBiblical: a first look\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\n18 Jun 2025\n\n\nATB events and biblical references\n\n\n\n\n28 Apr 2025\n\n\nBiblical references in context\n\n\n\n\n26 Feb 2025\n\n\nBiblical: a first look\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -46,21 +81,21 @@
     "href": "notes/first-look-202502.html",
     "title": "Biblical: a first look",
     "section": "",
-    "text": "It seemed to me that Book Rem might be over-represented for biblical citations (relative to its size), so I got word counts and biblical references (individual citations) and this shows each Book’s percentage of the total for both measures. Book Rem is punching slightly above its weight, but Book 1 more so, and what’s perhaps even more noticeable is how Book 3 is under represented. (Book 2 is about even.)"
+    "text": "It seemed to me that Book Rem might be over-represented for biblical citations (relative to its size), so I got word counts and biblical references and this shows each Book’s percentage of the total for both measures. Book Rem is punching slightly above its weight, but Book 1 more so, and what’s perhaps even more noticeable is how Book 3 is under represented. (Book 2 is about even.)\n\n\n\n\n\n\n\n\n\n[update 18/6/25]\nAbove chart assumes quotation lengths are fairly consistent. A different look at it, using wordcounts for both  words and non-quote words (not sure why I didn’t do that in the first place). Showing proportions for each book in a mosaic chart (height of each bar represents overall size of book). Book 1 and Book Rem are quite similar, Books 2 and 3 quite a bit lower."
   },
   {
     "objectID": "notes/first-look-202502.html#biblical-references-and-book-lengths",
     "href": "notes/first-look-202502.html#biblical-references-and-book-lengths",
     "title": "Biblical: a first look",
     "section": "",
-    "text": "It seemed to me that Book Rem might be over-represented for biblical citations (relative to its size), so I got word counts and biblical references (individual citations) and this shows each Book’s percentage of the total for both measures. Book Rem is punching slightly above its weight, but Book 1 more so, and what’s perhaps even more noticeable is how Book 3 is under represented. (Book 2 is about even.)"
+    "text": "It seemed to me that Book Rem might be over-represented for biblical citations (relative to its size), so I got word counts and biblical references and this shows each Book’s percentage of the total for both measures. Book Rem is punching slightly above its weight, but Book 1 more so, and what’s perhaps even more noticeable is how Book 3 is under represented. (Book 2 is about even.)\n\n\n\n\n\n\n\n\n\n[update 18/6/25]\nAbove chart assumes quotation lengths are fairly consistent. A different look at it, using wordcounts for both  words and non-quote words (not sure why I didn’t do that in the first place). Showing proportions for each book in a mosaic chart (height of each bar represents overall size of book). Book 1 and Book Rem are quite similar, Books 2 and 3 quite a bit lower."
   },
   {
     "objectID": "notes/first-look-202502.html#most-frequent-references",
     "href": "notes/first-look-202502.html#most-frequent-references",
     "title": "Biblical: a first look",
     "section": "Most frequent references",
-    "text": "Most frequent references\nIt’s quite difficult to come up with effective ways to compare references because so many (bible) books are mentioned in the Books. This only includes the top 30. I’ve put BCP Psalms in with the rest of Psalms and bundled all the rest of BCP as “Liturgy”.\n\n\n\n\n\n\n\n\n\n\nComparison per book\n\n\n\n\n\n\n\n\n\nBecause Psalms are so predominant, they make it difficult to see differences among the rest. So this is the same but with Psalms removed.\n\n\n\n\n\n\n\n\n\n\n\nComparison of Biblical v BCP"
+    "text": "Most frequent references\nIt’s quite difficult to come up with effective ways to compare references because so many (bible) books are mentioned in the Books. This only includes the top 30. I’ve put BCP Psalms in with the rest of Psalms and bundled all the rest of BCP as “Liturgy”.\n\n\n\n\n\n\n\n\n\n\nComparison per book\n\n\n\n\n\n\n\n\n\nBecause Psalms are so dominant, they make it difficult to see differences among the rest. So this is the same but with Psalms removed.\n\n\n\n\n\n\n\n\n\n\n\nComparison of Biblical v BCP"
   },
   {
     "objectID": "notes/first-look-202502.html#comparison-of-reference-types",
