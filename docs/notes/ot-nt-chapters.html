@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sharon Howard">
+<meta name="dcterms.date" content="2025-11-05">
 
-<title>Notes on ATB biblical – atb-bibl-project</title>
+<title>Old and New Testament – atb-bibl-project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">atb-bibl-project</span>
     </a>
   </div>
@@ -150,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -164,21 +106,59 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#notes" id="toc-notes" class="nav-link active" data-scroll-target="#notes">Notes</a></li>
+  <li><a href="#atb-vs-kjv" id="toc-atb-vs-kjv" class="nav-link" data-scroll-target="#atb-vs-kjv">ATB vs KJV</a>
+  <ul class="collapse">
+  <li><a href="#an-overview" id="toc-an-overview" class="nav-link" data-scroll-target="#an-overview">an overview</a></li>
+  <li><a href="#rankings" id="toc-rankings" class="nav-link" data-scroll-target="#rankings">rankings</a></li>
+  <li><a href="#percentages" id="toc-percentages" class="nav-link" data-scroll-target="#percentages">percentages</a></li>
+  </ul></li>
+  <li><a href="#breakdowns" id="toc-breakdowns" class="nav-link" data-scroll-target="#breakdowns">Breakdowns</a>
+  <ul class="collapse">
+  <li><a href="#by-atbook" id="toc-by-atbook" class="nav-link" data-scroll-target="#by-atbook">by ATBook</a></li>
+  <li><a href="#reference-types" id="toc-reference-types" class="nav-link" data-scroll-target="#reference-types">reference types</a></li>
+  <li><a href="#in-events" id="toc-in-events" class="nav-link" data-scroll-target="#in-events">in events</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Notes on ATB biblical</h1>
+<h1 class="title">Old and New Testament</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sharon Howard </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">5 November 2025</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">5 November 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -187,91 +167,173 @@ window.Quarto = {
 </header>
 
 
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p>I’m using the KJV (<a href="http://hdl.handle.net/20.500.14106/3036">this version</a>) for reference. I’ve excluded all of BCP and Apocrypha from ATB references. (There are only a handful of Apocrypha references.)</p>
+<p>I decided on counting <em>verses per bible book</em> for these comparisons. For KJV, this is based on a simple count of verses per book. For ATB references, I count each verse referenced <em>once</em> (no matter how many times it’s cited). Obviously this flattens out the clustering seen in the more detailed interactive charts of chapters and verses, but I think it’s a reasonable approach. (In the case of verse ranges, each verse in the range is counted.)</p>
+<p>I could use KJV verse word counts rather than just verse counts. But that feels a bit OTT unless there’s a lot of variation in average verse word counts across books, and there isn’t really.</p>
+<p>A boxplot of verse wordcounts per book suggests that most of them cluster in quite a tight range (median 20-25 words), though a few significant books (for ATB) do have noticeably shorter verses, especially Psalms and Job (both about 16 words). NT books (median word count 22) tend to have slightly shorter verses than OT books (25) and less variation.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This can be contrasted with the equivalent boxplot for chapter wordcounts - <em>much</em> more variation in average length than for verses.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="atb-vs-kjv" class="level2">
+<h2 class="anchored" data-anchor-id="atb-vs-kjv">ATB vs KJV</h2>
+<section id="an-overview" class="level3">
+<h3 class="anchored" data-anchor-id="an-overview">an overview</h3>
+<p>A treemap is quite a nice compact way of visualising the overall dimensions of the KJV and comparing with ATB references. Each rectangle is proportional to the number of verses in the book (KJV) or the number of verses referenced (ATB).</p>
+<p>In KJV, OT (23145 verses total) is much larger than NT (7957 verses). But ATB references are more evenly balanced (OT 1342 / NT 1055). In KJV Psalms is the largest OT book, but it doesn’t dominate as overwhelmingly as in the ATB references. Matthew and Luke swap places in NT; that’s at least partly due to the extensive tagging of the Lord’s Prayer in Matthew 6.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This is what happens if I make a treemap counting every single reference (not just counting each verse once). What it mostly does is to exaggerate further the differences from KJV, which underlines that there’s heavy clustering of certain references (while most verses are never or rarely referenced).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="rankings" class="level3">
+<h3 class="anchored" data-anchor-id="rankings">rankings</h3>
+<p>Treemaps are useful for a big picture view. A slopegraph comparing rankings can’t include as much information but does makes it easier to compare specific books.</p>
+<p>(colour is just used as an additional visual guide to whether ATB ranking is higher/lower/same as KJV)</p>
+<p>overall</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>NT only</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>OT only</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="percentages" class="level3">
+<h3 class="anchored" data-anchor-id="percentages">percentages</h3>
+<p>Percentages of verses referenced can be more nuanced than rankings. They also highlight that <em>most</em> books are very sparsely referenced. Only 12 books have more than 10% of verses referenced; more than half have less than 5% referenced.</p>
+<p><em>But</em> most of the books with ~10% or more verses referenced are <em>smaller</em> books. The significance of very small books may get exaggerated when using percentages.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Splitting by size (even quite crudely here) helps to see the differences more easily; but also highlights that there’s another difference, ie that the smaller group are mostly NT (only the first five books of NT are in the larger group) and we’ve already seen that NT books are overrepresented in ATB references. So the higher %s isn’t always merely an outcome of smaller book size.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="breakdowns" class="level2">
+<h2 class="anchored" data-anchor-id="breakdowns">Breakdowns</h2>
+<section id="by-atbook" class="level3">
+<h3 class="anchored" data-anchor-id="by-atbook">by ATBook</h3>
+<p>There’s virtually no variation in NT/OT usage between the four ATBooks. The slightly higher OT percentage in BookRem is unlikely to be statistically significant. (I haven’t quite got location barcode charts working but my first attempts don’t suggest any discernible patterns there either.)</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="reference-types" class="level3">
+<h3 class="anchored" data-anchor-id="reference-types">reference types</h3>
+<p>This is a bit more interesting; direct/paraphrase/phrase are pretty similar, but allusion and partial diverge more noticeably, especially the OT skew of partial.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="in-events" class="level3">
+<h3 class="anchored" data-anchor-id="in-events">in events</h3>
+<p>Already noted in events analysis that events are less likely to contain quotes than the rest of the Book texts. Turns out there is quite a difference between OT and NT as well; OT is only about half as likely as NT to be quoted inside events.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ot-nt-chapters_files/figure-html/unnamed-chunk-21-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Date
-</th>
-
-<th>
-Title
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-date-sort="1762300800000" data-listing-file-modified-sort="1762337498112" data-listing-date-modified-sort="1762337498000" data-listing-reading-time-sort="17" data-listing-word-count-sort="3254" data-listing-title-sort="Old and New Testament" data-listing-filename-sort="ot-nt-chapters.qmd">
-<td>
-<span class="listing-date">5 Nov 2025</span>
-</td>
-<td>
-<a href="./notes/ot-nt-chapters.html" class="title listing-title">Old and New Testament</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1761955200000" data-listing-file-modified-sort="1762182899501" data-listing-date-modified-sort="1762182899000" data-listing-reading-time-sort="21" data-listing-word-count-sort="4108" data-listing-title-sort="ATB biblical references by book/chapter/verse" data-listing-filename-sort="book-chapter-verse-202510.qmd">
-<td>
-<span class="listing-date">1 Nov 2025</span>
-</td>
-<td>
-<a href="./interactive/book-chapter-verse-202510.html" class="title listing-title">ATB biblical references by book/chapter/verse</a>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-date-sort="1757372400000" data-listing-file-modified-sort="1757398138870" data-listing-date-modified-sort="1757398138000" data-listing-reading-time-sort="21" data-listing-word-count-sort="4131" data-listing-title-sort="Psalms" data-listing-filename-sort="psalms-202509.qmd">
-<td>
-<span class="listing-date">9 Sep 2025</span>
-</td>
-<td>
-<a href="./notes/psalms-202509.html" class="title listing-title">Psalms</a>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-date-sort="1750201200000" data-listing-file-modified-sort="1762334320379" data-listing-date-modified-sort="1762334320000" data-listing-reading-time-sort="24" data-listing-word-count-sort="4715" data-listing-title-sort="ATB events and biblical references" data-listing-filename-sort="events-20250604.qmd">
-<td>
-<span class="listing-date">18 Jun 2025</span>
-</td>
-<td>
-<a href="./notes/events-20250604.html" class="title listing-title">ATB events and biblical references</a>
-</td>
-
-</tr>
-
-<tr data-index="4" data-listing-date-sort="1745794800000" data-listing-file-modified-sort="1750228257117" data-listing-date-modified-sort="1750228257000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3979" data-listing-title-sort="Biblical references in context" data-listing-filename-sort="location-202504.qmd">
-<td>
-<span class="listing-date">28 Apr 2025</span>
-</td>
-<td>
-<a href="./notes/location-202504.html" class="title listing-title">Biblical references in context</a>
-</td>
-
-</tr>
-
-<tr data-index="5" data-listing-date-sort="1740528000000" data-listing-file-modified-sort="1762333078338" data-listing-date-modified-sort="1762333078000" data-listing-reading-time-sort="5" data-listing-word-count-sort="925" data-listing-title-sort="Biblical: a first look" data-listing-filename-sort="first-look-202502.qmd">
-<td>
-<span class="listing-date">26 Feb 2025</span>
-</td>
-<td>
-<a href="./notes/first-look-202502.html" class="title listing-title">Biblical: a first look</a>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
